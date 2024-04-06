@@ -1,13 +1,6 @@
-﻿  SnakeGame.cpp
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(85,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(85,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(91,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(91,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(92,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(92,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(185,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(185,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\Ossa\source\repos\SnakeGame\SnakeGame\SnakeGame.cpp(217,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  Blocks.cpp
+  TetrisGameHelper.cpp
+  Generating Code...
   RetroGames.vcxproj -> C:\Users\Ossa\source\repos\RetroGames\x64\Debug\RetroGames.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

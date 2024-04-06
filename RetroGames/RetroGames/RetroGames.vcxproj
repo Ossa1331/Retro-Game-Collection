@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Ossa\source\repos\RetroGames\RetroGames;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,7 +128,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\SnakeGame\SnakeGame\SnakeGame.cpp" />
+    <ClCompile Include="..\..\SnakeGame\SnakeGame\SnakeGame.cpp">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Blocks.cpp" />
+    <ClCompile Include="Colors.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="PongGame.cpp">
+      <FileType>CppCode</FileType>
+    </ClCompile>
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="TetrisGame.cpp" />
+    <ClCompile Include="TetrisGameHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="block.h" />
+    <ClInclude Include="Colors.h" />
+    <ClInclude Include="grid.h" />
+    <ClInclude Include="position.h" />
+    <ClInclude Include="TetrisGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

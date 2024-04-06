@@ -1,15 +1,12 @@
 #include <iostream>
 #include <raylib.h>
+#include <Colors.h>
 
 using namespace std;
 
-Color greenColor = Color{ 38,185,154,255 };
-Color darkGreenColor = Color{ 20,160,133,255 };
-Color lightGreenColor = Color{ 129,204,184,255 };
-Color yellowColor = Color{ 243,213,91,255 };
-
 int playerScore = 0;
 int cpuScore = 0;
+
 
 class Ball {
 public:
@@ -96,7 +93,7 @@ Ball ball;
 Paddle player;
 CpuPaddle cpu;
 
-int main() {
+int startPongGame() {
 
 	cout << "Starting the game" << endl;
 
