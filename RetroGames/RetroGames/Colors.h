@@ -18,6 +18,9 @@ namespace {
 	const Color purpleColor = { 166,0,247,255 };
 	const Color cyanColor = { 21,204,209,255 };
 	const Color blueColor = { 13,64,216, 255 };
+
+	const Color darkGreyColor2 = { 29,29,27,255 };
+	const Color yellowColor3 = { 243, 216, 63, 255 };
 }
 
 std::vector<Color>GetCellColors();

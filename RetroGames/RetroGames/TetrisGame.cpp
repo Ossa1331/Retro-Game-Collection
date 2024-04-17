@@ -16,11 +16,10 @@ bool EventTriggered(double interval) {
 }
 
 
-int main() {
+int TetrisGameInitialize() {
 
 	InitWindow(500, 620, "Tetris Game");
 	SetTargetFPS(144);
-
 	Font font = LoadFontEx("Font/monogram.ttf", 64, 0 ,0);
 
 	Grid grid = Grid();
@@ -59,4 +58,6 @@ int main() {
 	}
 
 	CloseWindow();
+
+	return 0;
 }
